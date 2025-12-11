@@ -1,0 +1,30 @@
+﻿@model PDFMerger.Logic.Models.TemplateSelection
+
+
+<h2 class="heading">Välj mall/choose template</h2>
+
+<div id="template-collection">
+    @foreach (var item in Model.Templates)
+    {
+        <div class="template">
+            <div class="template-description">
+                <h2>@item.Title</h2>
+                <p>@item.Description</p>
+            </div>
+            <div class="template-images">
+                @if (item.SwedishTemplateId != null && !string.IsNullOrEmpty(item.SwedishTemplateId))
+                {
+                    <a class="alfa simple" href="/Home/InputForm/@item.SwedishTemplateId" title="Svenska"><img src="/Content/Themes/Base/Images/icon-sv.png" alt="Svensk mall" /></a>
+                }
+                
+                @if (item.EnglishTemplateId != null && !string.IsNullOrEmpty(item.EnglishTemplateId))
+                {
+                    <a class="beta extended" href="/Home/InputForm/@item.EnglishTemplateId" title="English"><img src="/Content/Themes/Base/Images/icon-en.png" alt="English template" /></a>
+                }
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        </div>
+    }
+</div>

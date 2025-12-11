@@ -1,0 +1,113 @@
+﻿@model PDFMerger.Logic.Models.InputFormStructure
+
+@{
+    ViewBag.Title = "InputForm";
+}
+
+@helper GenerateField(PDFMerger.Logic.Models.InputFormStructure.InputField Field)
+{
+    switch (Field.Type)
+    {
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.Text:
+            <input class="text" type="text" id="@Field.FieldId" name="@Field.FieldId" @Html.Raw(Field.MetaText.MaxLength > 0 ? "maxlength=\"" + Field.MetaText.MaxLength + "\"" : "") @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.TextArea:
+            <textarea id="@Field.FieldId" name="@Field.FieldId" @Html.Raw(Field.MetaText.MaxLength > 0 ? "maxlength=\"" + Field.MetaText.MaxLength + "\"" : "") @(Field.IsMandatory ? "required=\"required\"" : "")></textarea>
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.Number:
+            <input class="number" type="number" min="0" step="1" pattern="\d+" id="@Field.FieldId" name="@Field.FieldId" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.Date:
+            <input class="date" type="text" id="@Field.FieldId" name="@Field.FieldId" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.UploadImage:
+            <input type="hidden" name="img-width" class="img-width" value="@Field.MetaImage.Width" />
+            <input type="hidden" name="img-height" class="img-height" value="@Field.MetaImage.Height" />
+            <input class="image" type="file" id="@Field.FieldId" name="@Field.FieldId" accept="image/*" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            @*<span class="image-size">(Bilden kommer automatiskt att skalas till @(formField.MetaImage.Width + "x" + formField.MetaImage.Height).)</span>*@
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.UploadPDF:
+            <input class="pdf" type="file" id="@Field.FieldId" name="@Field.FieldId" accept="application/pdf" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+    }
+}
+
+@using (Html.BeginForm("Upload", "Merge", FormMethod.Post, new { EncType = "multipart/form-data", Id = "template-form", novalidate = "novalidate" }))
+{    
+    <input type="hidden" name="TemplateId" id="template-id" value="@Model.TemplateId"/>
+    <h2 class="heading">@Model.Title</h2>
+    <p>@Model.Description</p>
+
+    foreach (var formSection in Model.Sections)
+    {           
+        <fieldset>
+            <legend>@formSection.Title</legend>
+            @if (!string.IsNullOrEmpty(formSection.Description))
+            {
+                <p>@formSection.Description</p>
+            }
+            
+
+            @foreach (var formField in formSection.Fields)
+            {
+                
+                <div class="field">
+                    @if (!string.IsNullOrEmpty(formField.Label))
+                    {
+                    <label for="@formField.FieldId">
+                        @formField.Label @Html.Raw(formField.IsMandatory ? "<span class=\"red\">*</span>" : "")
+
+                        @if (!string.IsNullOrEmpty(formField.Description))
+                        {
+                            <span class="description">@formField.Description</span> 
+                        }
+                    </label>
+                    }
+                    @if (formField.Type == PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.FormChoice)
+                    {
+                        <select class="form-choice-selector @(formField.IsMandatory ? "required" : "")" id="@formField.FieldId" name="@formField.FieldId" >
+                            @foreach (var item in formField.MetaFormChoices)
+                            {
+	                            <option value="@item.Id">@item.SelectionTitle</option>	 
+                            }
+                        </select>
+                            if (string.IsNullOrEmpty(formField.Label) && formField.IsMandatory)
+                            {
+                            <span class="red mandatory-aside">*</span>
+                            }
+                        <div class="form-choice-container" id="container-@formField.FieldId">
+                            @{
+                            var firstFormChoiceValues = formField.MetaFormChoices.FirstOrDefault();
+
+                            if (firstFormChoiceValues != null && firstFormChoiceValues.Fields.Count > 0)
+                            {
+                                foreach (var item in firstFormChoiceValues.Fields)
+                                {
+                                        <div class="field">
+                                            <label for="@formField.FieldId">
+                                                @item.Label @Html.Raw(item.IsMandatory ? "<span class=\"red\">*</span>" : "")
+
+                                                @if (!string.IsNullOrEmpty(item.Description))
+                                                {
+                                                    <span class="description">@item.Description</span> 
+                                                }
+                                            </label>
+                                            @GenerateField(item)  
+                                        </div>
+                                }
+                            }
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        @GenerateField(formField)  
+                    }
+                </div>
+            }
+        </fieldset>
+    }
+
+    <input type="submit" value="Skapa PDF" />    
+}
+    

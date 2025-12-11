@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PdfTemplateConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TemplatePairs>
+    <TemplatePair>
+      <Title>Examensarbete/Degree thesis</Title>
+      <Swedish>
+		<Title>Examensarbete</Title>
+        <Sections>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>A</string>
+            </PdfFormIds>
+            <SectionOrderIndex>1</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+			<InputTitle>Framsida</InputTitle>
+			<InputDescription>* = obligatoriska fält</InputDescription>
+            </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds />
+            <SectionOrderIndex>2</SectionOrderIndex>
+            <IsUploaded>true</IsUploaded>
+            <InputTitle>Uppsats</InputTitle>
+            <InputDescription>Ladda upp ditt arbete. Det måste vara i PDF</InputDescription>
+          </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>O</string>
+              <string>P</string>
+              <string>Q</string>
+              <string>R</string>
+            </PdfFormIds>
+            <SectionOrderIndex>3</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Baksida</InputTitle>
+            <InputDescription>Välj baksidesmall efter antal författare</InputDescription>
+          </TemplateSection>
+        </Sections>
+      </Swedish>
+      <English>
+		<Title>Degree thesis</Title>
+        <Sections>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>I</string>
+            </PdfFormIds>
+            <SectionOrderIndex>1</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Front cover</InputTitle>
+			<InputDescription>* = mandatory field</InputDescription>
+            </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds />
+            <SectionOrderIndex>2</SectionOrderIndex>
+            <IsUploaded>true</IsUploaded>
+            <InputTitle>Thesis</InputTitle>
+            <InputDescription>Upload your work in PDF format</InputDescription>
+          </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>S</string>
+              <string>T</string>
+              <string>U</string>
+              <string>V</string>
+            </PdfFormIds>
+            <SectionOrderIndex>3</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Back page</InputTitle>
+            <InputDescription>Choose template after the number of authors</InputDescription>
+          </TemplateSection>
+        </Sections>
+      </English>
+    </TemplatePair>
+    <TemplatePair>
+      <Title>Kandidatuppsats/Bachelor thesis</Title>
+       <Swedish>
+	   <Title>Kandidatuppsats</Title>
+        <Sections>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>C</string>
+            </PdfFormIds>
+            <SectionOrderIndex>1</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Framsida</InputTitle>
+			<InputDescription>* = obligatoriska fält</InputDescription>
+            </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds />
+            <SectionOrderIndex>2</SectionOrderIndex>
+            <IsUploaded>true</IsUploaded>
+            <InputTitle>Uppsats</InputTitle>
+            <InputDescription>Ladda upp ditt arbete. Det måste vara i PDF</InputDescription>
+          </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>O</string>
+              <string>P</string>
+              <string>Q</string>
+              <string>R</string>
+            </PdfFormIds>
+            <SectionOrderIndex>3</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Baksida</InputTitle>
+            <InputDescription>Välj baksidesmall efter antal författare</InputDescription>
+          </TemplateSection>
+        </Sections>
+      </Swedish>
+      <English>
+	  <Title>Bachelor thesis</Title>
+        <Sections>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>K</string>
+            </PdfFormIds>
+            <SectionOrderIndex>1</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Front cover</InputTitle>
+			<InputDescription>* = mandatory field</InputDescription>
+            </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds />
+            <SectionOrderIndex>2</SectionOrderIndex>
+            <IsUploaded>true</IsUploaded>
+            <InputTitle>Thesis</InputTitle>
+            <InputDescription>Upload your work in PDF format</InputDescription>
+          </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>S</string>
+              <string>T</string>
+              <string>U</string>
+              <string>V</string>
+            </PdfFormIds>
+            <SectionOrderIndex>3</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Back page</InputTitle>
+            <InputDescription>Choose template after the number of authors</InputDescription>
+          </TemplateSection>
+        </Sections>
+      </English>
+    </TemplatePair>
+    <TemplatePair>
+      <Title>Magisteruppsats</Title>
+       <Swedish>
+        <Sections>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>E</string>
+            </PdfFormIds>
+            <SectionOrderIndex>1</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Framsida</InputTitle>
+			<InputDescription>* = obligatoriska fält</InputDescription>
+           </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds />
+            <SectionOrderIndex>2</SectionOrderIndex>
+            <IsUploaded>true</IsUploaded>
+            <InputTitle>Uppsats</InputTitle>
+            <InputDescription>Ladda upp ditt arbete. Det måste vara i PDF</InputDescription>
+          </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>O</string>
+              <string>P</string>
+              <string>Q</string>
+              <string>R</string>
+            </PdfFormIds>
+            <SectionOrderIndex>3</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Baksida</InputTitle>
+            <InputDescription>Välj baksidesmall efter antal författare</InputDescription>
+          </TemplateSection>
+        </Sections>
+      </Swedish>
+    </TemplatePair>
+    <TemplatePair>
+      <Title>Masteruppsats/Master thesis</Title>
+       <Swedish>
+	   <Title>Masteruppsats</Title>
+        <Sections>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>G</string>
+            </PdfFormIds>
+            <SectionOrderIndex>1</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Framsida</InputTitle>
+			<InputDescription>* = obligatoriska fält</InputDescription>
+            </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds />
+            <SectionOrderIndex>2</SectionOrderIndex>
+            <IsUploaded>true</IsUploaded>
+            <InputTitle>Uppsats</InputTitle>
+            <InputDescription>Ladda upp ditt arbete. Det måste vara i PDF</InputDescription>
+          </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>O</string>
+              <string>P</string>
+              <string>Q</string>
+              <string>R</string>
+            </PdfFormIds>
+            <SectionOrderIndex>3</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Baksida</InputTitle>
+            <InputDescription>Välj baksidesmall efter antal författare</InputDescription>
+          </TemplateSection>
+        </Sections>
+      </Swedish>
+      <English>
+	  <Title>Master thesis</Title>
+        <Sections>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>M</string>
+            </PdfFormIds>
+            <SectionOrderIndex>1</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Front cover</InputTitle>
+			<InputDescription>* = mandatory field</InputDescription>
+            </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds />
+            <SectionOrderIndex>2</SectionOrderIndex>
+            <IsUploaded>true</IsUploaded>
+            <InputTitle>Thesis</InputTitle>
+            <InputDescription>Upload your work in PDF format</InputDescription>
+          </TemplateSection>
+          <TemplateSection>
+            <PdfFormIds>
+              <string>S</string>
+              <string>T</string>
+              <string>U</string>
+              <string>V</string>
+            </PdfFormIds>
+            <SectionOrderIndex>3</SectionOrderIndex>
+            <IsUploaded>false</IsUploaded>
+            <InputTitle>Back page</InputTitle>
+            <InputDescription>Choose template after the number of authors</InputDescription>
+          </TemplateSection>
+        </Sections>
+      </English>
+    </TemplatePair>
+  </TemplatePairs>
+  <PdfForms>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Framsidesbilden</InputLabel>
+          <InputDescription>En bild som representerar arbetet. Om du inte väljer egen bild kommer HH:s standardbild att användas. Din bild skall vara liggande. Den skalas till 440*248 pixlar, dvs förhållandet bredd/höjd skall vara 1,774/1 </InputDescription>
+          <InputOrderIndex>100</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>90</PositionX>
+            <PositionY>433</PositionY>
+            <Width>440</Width>
+            <Height>248</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Program/kurs och hp</InputLabel>
+          <InputDescription>Program/kurs och hp skrivs som exemplen: Elektroingenjör 180 hp eller Svenska språket (61-90), 30 hp</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Program</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Titel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>titel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Undertitel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>undertitel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författare</InputLabel>
+          <InputDescription>Förnamn och efternamn. Om ni är flera författare skriver ni namnen åtskilda av komma, men med "och" mellan de två sista författarna och då inget komma.</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>författare</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ämne och omfattning</InputLabel>
+          <InputDescription>Arbetets huvudområde och antal hp som arbetet omfattar, exempelvis "Informatik 15 hp"</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Ämne omfattning</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ort och datum</InputLabel>
+          <InputDescription>Skrivs som exemplet: Halmstad 2018-12-24</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>A</Id>
+      <SelectionTitle>Examensarbete</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Examensarbete.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Framsidesbild</InputLabel>
+          <InputDescription>En bild som representerar arbetet. Om du inte väljer egen bild kommer HH:s standardbild att användas. Din bild skall vara liggande. Den skalas till 440*248 pixlar, dvs förhållandet bredd/höjd skall vara 1,774/1 </InputDescription>
+          <InputOrderIndex>100</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>90</PositionX>
+            <PositionY>433</PositionY>
+            <Width>440</Width>
+            <Height>248</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Program/kurs och hp</InputLabel>
+          <InputDescription>Program/kurs och hp skrivs som exemplen: Elektroingenjör 180 hp eller Svenska språket (61-90), 30 hp</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Program</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Titel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>titel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Undertitel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>undertitel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författare</InputLabel>
+          <InputDescription>Förnamn och efternamn. Om ni är flera författare skriver ni namnen åtskilda av komma, men med "och" mellan de två sista författarna och då inget komma.</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>författare</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ämne och omfattning</InputLabel>
+          <InputDescription>Arbetets huvudområde och antal hp som arbetet omfattar, exempelvis "Informatik 15 hp"</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Ämne omfattning</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ort och datum</InputLabel>
+          <InputDescription>Skrivs som exemplet: Halmstad 2018-12-24</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>C</Id>
+      <SelectionTitle>Kandidatuppsats</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Kandidatuppsats.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Framsidesbild</InputLabel>
+          <InputDescription>En bild som representerar arbetet. Om du inte väljer egen bild kommer HH:s standardbild att användas. Din bild skall vara liggande. Den skalas till 440*248 pixlar, dvs förhållandet bredd/höjd skall vara 1,774/1</InputDescription>
+          <InputOrderIndex>100</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>90</PositionX>
+            <PositionY>433</PositionY>
+            <Width>440</Width>
+            <Height>248</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Program/kurs och hp</InputLabel>
+          <InputDescription>Program/kurs och hp skrivs som exemplen: Elektroingenjör 180 hp eller Svenska språket (61-90), 30 hp</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Program</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Titel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>titel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Undertitel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>undertitel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författare</InputLabel>
+          <InputDescription>Förnamn och efternamn. Om ni är flera författare skriver ni namnen åtskilda av komma, men med "och" mellan de två sista författarna och då inget komma.</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>författare</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ämne och omfattning</InputLabel>
+          <InputDescription>Arbetets huvudområde och antal hp som arbetet omfattar, exempelvis "Informatik 15 hp"</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Ämne omfattning</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ort och datum</InputLabel>
+          <InputDescription>Skrivs som exemplet: Halmstad 2018-12-24</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>E</Id>
+      <SelectionTitle>Magisteruppsats</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Magisteruppsats.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Framsidesbild</InputLabel>
+          <InputDescription>En bild som representerar arbetet. Om du inte väljer egen bild kommer HH:s standardbild att användas. Din bild skall vara liggande. Den skalas till 440*248 pixlar, dvs förhållandet bredd/höjd skall vara 1,774/1</InputDescription>
+          <InputOrderIndex>100</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>90</PositionX>
+            <PositionY>433</PositionY>
+            <Width>440</Width>
+            <Height>248</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Program/kurs och hp</InputLabel>
+          <InputDescription>Program/kurs och hp skrivs som exemplen: Elektroingenjör 180 hp eller Svenska språket (61-90), 30 hp</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Program</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Titel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>titel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Undertitel (Max 100 tecken)</InputLabel>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>undertitel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författare</InputLabel>
+          <InputDescription>Förnamn och efternamn. Om ni är flera författare skriver ni namnen åtskilda av komma, men med "och" mellan de två sista författarna och då inget komma.</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>författare</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ämne och omfattning</InputLabel>
+          <InputDescription>Arbetets huvudområde och antal hp som arbetet omfattar, exempelvis "Informatik 15 hp"</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Ämne omfattning</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Ort och datum</InputLabel>
+          <InputDescription>Skrivs som exemplet: Halmstad 2018-12-24</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>G</Id>
+      <SelectionTitle>Masteruppsats</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Masteruppsats.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Front cover picture</InputLabel>
+          <InputDescription>A picture representing the thesis. If you do not upload one, a standard picture for theses from Halmstad University will be used. The picture must be landscape and will be stretched to 440*248 pixlar, a ratio of 1,774:1</InputDescription>
+          <InputOrderIndex>100</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>90</PositionX>
+            <PositionY>433</PositionY>
+            <Width>440</Width>
+            <Height>248</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Programme and credits</InputLabel>
+          <InputDescription>Should be written as this example:  Master's Programme in Embedded and Intelligent Systems, 120 credits</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Program</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Title (Maximum 100 characters)</InputLabel>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>titel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Subtitle (Maximum 100 characters)</InputLabel>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>undertitel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author</InputLabel>
+          <InputDescription>Your full name. If more than one author, separate the authors with comma.</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>författare</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Major and credits</InputLabel>
+          <InputDescription>As in this example: Computer science and engineering, 15 credits</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Ämne omfattning</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>City and Date</InputLabel>
+          <InputDescription>As in this example: Halmstad 2014-01-14</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Datum</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>I</Id>
+      <SelectionTitle>Degree thesis</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Degree thesis.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Front cover picture</InputLabel>
+          <InputDescription>A picture representing the thesis. If you do not upload one, a standard picture for theses from Halmstad University will be used. The picture must be landscape and will be stretched to 440*248 pixlar, a ratio of 1,774:1</InputDescription>
+          <InputOrderIndex>100</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>90</PositionX>
+            <PositionY>433</PositionY>
+            <Width>440</Width>
+            <Height>248</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Programme and credits</InputLabel>
+          <InputDescription>Should be written as this example:  Master's Programme in Embedded and Intelligent Systems, 120 credits</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Program</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Title (Maximum 100 characters)</InputLabel>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>titel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Subtitle (Maximum 100 characters)</InputLabel>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>undertitel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author</InputLabel>
+          <InputDescription>Your full name. If more than one author, separate the authors with comma.</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>författare</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Major and credits</InputLabel>
+          <InputDescription>As in this example: Computer science and engineering, 15 credits</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Ämne omfattning</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>City and date</InputLabel>
+          <InputDescription>As in this example: Halmstad 2014-01-14</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>K</Id>
+      <SelectionTitle>Bachelor thesis</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Bachelor thesis.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Front cover picture</InputLabel>
+          <InputDescription>A picture representing the thesis. If you do not upload one a standard picture for theses from Halmstad University will be used. The picture must be landscape and will be stretched to 440*248 pixlar, a ratio of 1,774:1</InputDescription>
+          <InputOrderIndex>100</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>90</PositionX>
+            <PositionY>433</PositionY>
+            <Width>440</Width>
+            <Height>248</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Programme and credits</InputLabel>
+          <InputDescription>Should be written as this example:  Master's Programme in Embedded and Intelligent Systems, 120 credits</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Program</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Title (Maximum 100 characters)</InputLabel>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>titel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Subtitle (Maximum 100 characters)</InputLabel>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>undertitel</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author</InputLabel>
+          <InputDescription>Your full name. If more than one author, separate the authors with comma.</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>författare</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Major and credits?</InputLabel>
+          <InputDescription>As in this example: Computer science and engineering, 15 credits</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Ämne omfattning</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>City and date</InputLabel>
+          <InputDescription>As in this example: Halmstad 2014-01-14</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>Text</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>M</Id>
+      <SelectionTitle>Master thesis</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Master thesis.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 11</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>O</Id>
+      <SelectionTitle>1</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Baksida_sv_1.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 2</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>502</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 3</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>P</Id>
+      <SelectionTitle>2</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Baksida_sv_2.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 4</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>502</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 5</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>377</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>Q</Id>
+      <SelectionTitle>3</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Baksida_sv_3.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 10</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>502</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 9</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>377</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 8</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Studentbild</InputLabel>
+          <InputDescription>En närbild på författarens ansikte. Bilden skalas till bredd 87 och höjd 117 pixlar, dvs förhållande 1/1,34</InputDescription>
+          <InputOrderIndex>7</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>252</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Författarpresentation</InputLabel>
+          <InputDescription>En beskrivning av dig själv, alternativt skriver du ditt namn</InputDescription>
+          <InputOrderIndex>8</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 7</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>R</Id>
+      <SelectionTitle>4</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Baksida_sv_4.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 11</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>S</Id>
+      <SelectionTitle>1</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Backpage_en_1.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 2</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>502</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 3</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>T</Id>
+      <SelectionTitle>2</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Baksida_en_2.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 4</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>502</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 5</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>377</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 6</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>U</Id>
+      <SelectionTitle>3</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Baksida_en_3.pdf</PdfFile>
+    </PdfForm>
+    <PdfForm>
+      <TemplateFields>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>1</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>627</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>2</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 10</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>3</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>502</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>4</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 9</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>5</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>377</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>6</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 8</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Student photo</InputLabel>
+          <InputDescription>Face of the author. The picture will be strectched to wide 87 and height 117. A ratio of 1/1.34</InputDescription>
+          <InputOrderIndex>7</InputOrderIndex>
+          <IsMandatory>false</IsMandatory>
+          <FieldType>Picture</FieldType>
+          <PictureInfo>
+            <PageIndex>1</PageIndex>
+            <PositionX>161</PositionX>
+            <PositionY>252</PositionY>
+            <Width>87</Width>
+            <Height>117</Height>
+          </PictureInfo>
+        </TemplateField>
+        <TemplateField>
+          <InputLabel>Author presentation</InputLabel>
+          <InputDescription>A short presentation of yourself. Maximum 275 characters</InputDescription>
+          <InputOrderIndex>8</InputOrderIndex>
+          <IsMandatory>true</IsMandatory>
+          <FieldType>TextArea</FieldType>
+          <TextInfo>
+            <FormKey>Textfält 7</FormKey>
+            <MaxLength>0</MaxLength>
+          </TextInfo>
+        </TemplateField>
+      </TemplateFields>
+      <Id>V</Id>
+      <SelectionTitle>4</SelectionTitle>
+      <PdfFile>C:\inetpub\wwwroot\thesis\Data\PDF\Baksida_en_4.pdf</PdfFile>
+    </PdfForm>
+  </PdfForms>
+</PdfTemplateConfig>

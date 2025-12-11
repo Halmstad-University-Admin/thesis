@@ -1,0 +1,77 @@
+﻿@model PDFMerger.Logic.Models.InputFormStructure.MetaFormChoice
+@{
+    Layout = null;
+}
+
+@helper GenerateField(PDFMerger.Logic.Models.InputFormStructure.InputField Field)
+{
+    switch (Field.Type)
+    {
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.Text:
+            <input class="text" type="text" id="@Field.FieldId" name="@Field.FieldId" @Html.Raw(Field.MetaText.MaxLength > 0 ? "maxlength=\"" + Field.MetaText.MaxLength + "\"" : "") @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.TextArea:
+            <textarea id="@Field.FieldId" name="@Field.FieldId" @Html.Raw(Field.MetaText.MaxLength > 0 ? "maxlength=\"" + Field.MetaText.MaxLength + "\"" : "") @(Field.IsMandatory ? "required=\"required\"" : "")></textarea>
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.Number:
+            <input class="number" type="number" min="0" step="1" pattern="\d+" id="@Field.FieldId" name="@Field.FieldId" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.Date:
+            <input class="date" type="text" id="@Field.FieldId" name="@Field.FieldId" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.UploadImage:
+            <input type="hidden" name="img-width" class="img-width" value="@Field.MetaImage.Width" />
+            <input type="hidden" name="img-height" class="img-height" value="@Field.MetaImage.Height" />
+            <input class="image" type="file" id="@Field.FieldId" name="@Field.FieldId" accept="image/*" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            @*<span class="image-size">(Bilden kommer automatiskt att skalas till @(formField.MetaImage.Width + "x" + formField.MetaImage.Height).)</span>*@
+            break;
+        case PDFMerger.Logic.Models.InputFormStructure.InputField.InputType.UploadPDF:
+            <input class="pdf" type="file" id="@Field.FieldId" name="@Field.FieldId" accept="application/pdf" @(Field.IsMandatory ? "required=\"required\"" : "") />
+            break;
+    }
+}
+
+@foreach (var field in Model.Fields)
+{
+<div class="field">
+    <label for="@field.FieldId">
+        @field.Label @Html.Raw(field.IsMandatory ? "<span class=\"red\">*</span>" : "")
+
+        @if (!string.IsNullOrEmpty(field.Description))
+        {
+            <span class="description">@field.Description</span> 
+        }
+    </label>
+    @GenerateField(field)
+</div>
+}
+
+
+<script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var $input = $(input);
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                if ($input.parent().find($("#previewHolder")).length != 0) {
+                    $input.parent().find($("#previewHolder")).remove();
+                }
+                var height = $input.parent().find($(".img-height")).val();
+                var width = $input.parent().find($(".img-width")).val();
+
+                jQuery('<img/>', {
+                    id: 'previewHolder',
+                    src: e.target.result,
+                    width: width,
+                    height: height
+                }).prependTo($input.parent());
+
+                $('#previewHolder').show();
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    $("input.image").change(function () {
+        readURL(this);
+    });
+</script>
